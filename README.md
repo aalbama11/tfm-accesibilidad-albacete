@@ -1,4 +1,4 @@
-# 🗺️ TFM: Análisis de Accesibilidad Urbana de Albacete
+# TFM: Análisis de Accesibilidad Urbana de Albacete
 
 **Trabajo Fin de Máster** | Universitat Oberta de Catalunya (UOC) | 2026
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📊 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este trabajo analiza la **accesibilidad urbana** de la ciudad de Albacete mediante técnicas de **Machine Learning** y **visualización cartográfica interactiva**. Se utilizan datos del Plan de Accesibilidad Municipal que evalúan vías públicas y edificios según criterios normativos para cinco colectivos con discapacidad.
 
@@ -22,20 +22,20 @@ Este trabajo analiza la **accesibilidad urbana** de la ciudad de Albacete median
 
 ---
 
-## 🗂️ Mapas Interactivos
+## Mapas Interactivos
 
 Accede a las visualizaciones en: **https://aalbama11.github.io/tfm-accesibilidad-albacete/**
 
 Los mapas disponibles incluyen:
-- 🌐 **Dashboard principal** con capas por colectivo
-- 🎯 **Accesibilidad global** de vías públicas
-- 🏢 **Edificios públicos** evaluados
-- 🔍 **Clusters K-Means** de perfiles de accesibilidad
-- 📍 **Análisis LISA** (autocorrelación espacial)
+- **Dashboard principal** con capas por colectivo
+- **Accesibilidad global** de vías públicas
+- **Edificios públicos** evaluados
+- **Clusters K-Means** de perfiles de accesibilidad
+- **Análisis LISA** (autocorrelación espacial)
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Python 3.9+**: pandas, numpy, scikit-learn, scipy
 - **Visualización**: matplotlib, seaborn, folium
@@ -44,7 +44,7 @@ Los mapas disponibles incluyen:
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 ├── index.html                      # Página principal con índice de mapas
@@ -57,7 +57,7 @@ Los mapas disponibles incluyen:
 
 ---
 
-## 📝 Cómo Citar
+## Cómo Citar
 
 ```
 Alba, A. (2026). Análisis de la accesibilidad urbana mediante técnicas de 
@@ -67,7 +67,7 @@ de Albacete [Trabajo Fin de Máster]. Universitat Oberta de Catalunya.
 
 ---
 
-## 📧 Contacto
+## Contacto
 
 - **Email:** adrialba@uoc.edu
 - **LinkedIn:** [Adrián Alba](https://linkedin.com/in/adrian-alba)
@@ -75,7 +75,7 @@ de Albacete [Trabajo Fin de Máster]. Universitat Oberta de Catalunya.
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto se distribuye bajo licencia **MIT** para fines académicos y de investigación.
 
