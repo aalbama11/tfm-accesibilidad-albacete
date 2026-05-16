@@ -27,6 +27,7 @@ Este trabajo analiza la **accesibilidad urbana** de la ciudad de Albacete median
 Accede a las visualizaciones en: **https://aalbama11.github.io/tfm-accesibilidad-albacete/**
 
 Los mapas disponibles incluyen:
+- Dashboard principal con capas por colectivo
 - Accesibilidad global de vías públicas
 - Edificios públicos evaluados
 - Clusters K-Means de perfiles de accesibilidad
