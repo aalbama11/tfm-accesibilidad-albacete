@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e0b3c1da95192ff7b356ec7c8b50f08a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e0b3c1da95192ff7b356ec7c8b50f08a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e0b3c1da95192ff7b356ec7c8b50f08a = L.map(
+                "map_e0b3c1da95192ff7b356ec7c8b50f08a",
+                {
+                    center: [38.98626698795944, -1.8651171878407675],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ade44063a83c4ca9898900b08a8cd609 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ade44063a83c4ca9898900b08a8cd609.addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var marker_9f19d3523bed649a3220dfb3e0884498 = L.marker(
+                [38.996449, -1.855792],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_a3a4af143937e7ce9b6330d822ef683b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c098dd87665e58119e76e2ff0f63565 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_031dfbf14bcdfaf0e177b1f4cc8b0b1b = $(`<div id="html_031dfbf14bcdfaf0e177b1f4cc8b0b1b" style="width: 100.0%; height: 100.0%;"><b>Casa Consistorial</b><br>Global: 48<br>SR: 47 | MR: 64<br>DV: 36 | HA: 49<br>DI: 46</div>`)[0];
+                popup_7c098dd87665e58119e76e2ff0f63565.setContent(html_031dfbf14bcdfaf0e177b1f4cc8b0b1b);
+            
+        
+
+        marker_9f19d3523bed649a3220dfb3e0884498.bindPopup(popup_7c098dd87665e58119e76e2ff0f63565)
+        ;
+
+        
+    
+    
+                marker_9f19d3523bed649a3220dfb3e0884498.setIcon(icon_a3a4af143937e7ce9b6330d822ef683b);
+            
+    
+            var marker_a09bd7142a6a5ea42e59b930a044c3c7 = L.marker(
+                [38.996449, -1.855792],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_b28c281b248c84bcbdc3cb5569e7f0cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4aafdf4736ff6ea668eada828f30eab3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ccfd1c88af3023ffdbb5e85439cfa2dd = $(`<div id="html_ccfd1c88af3023ffdbb5e85439cfa2dd" style="width: 100.0%; height: 100.0%;"><b>Museo de la Cuchillería</b><br>Global: 59<br>SR: 67 | MR: 78<br>DV: 43 | HA: 52<br>DI: 57</div>`)[0];
+                popup_4aafdf4736ff6ea668eada828f30eab3.setContent(html_ccfd1c88af3023ffdbb5e85439cfa2dd);
+            
+        
+
+        marker_a09bd7142a6a5ea42e59b930a044c3c7.bindPopup(popup_4aafdf4736ff6ea668eada828f30eab3)
+        ;
+
+        
+    
+    
+                marker_a09bd7142a6a5ea42e59b930a044c3c7.setIcon(icon_b28c281b248c84bcbdc3cb5569e7f0cb);
+            
+    
+            var marker_3e983990ff616429eddd67e174c233dd = L.marker(
+                [39.000865, -1.857909],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_db7200abf2d1766d9d30d202e723ca96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf554ca9fc6424678b4c289da4ddb060 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a5895f0939116d2f6b5f4eacc4ba9622 = $(`<div id="html_a5895f0939116d2f6b5f4eacc4ba9622" style="width: 100.0%; height: 100.0%;"><b>Talleres de Empleo-Local Amas de Casa Industria</b><br>Global: 35<br>SR: 30 | MR: 50<br>DV: 23 | HA: 38<br>DI: 36</div>`)[0];
+                popup_bf554ca9fc6424678b4c289da4ddb060.setContent(html_a5895f0939116d2f6b5f4eacc4ba9622);
+            
+        
+
+        marker_3e983990ff616429eddd67e174c233dd.bindPopup(popup_bf554ca9fc6424678b4c289da4ddb060)
+        ;
+
+        
+    
+    
+                marker_3e983990ff616429eddd67e174c233dd.setIcon(icon_db7200abf2d1766d9d30d202e723ca96);
+            
+    
+            var marker_57d7cccee4ce3cb19abdd0419b1d9d65 = L.marker(
+                [38.997598, -1.854738],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_7eac596316cdd4d8b4b0c979f5f896f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77b87b14e498ab98b748e8faeab85a81 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a3200e65185fc63ea305933fa89bf0ed = $(`<div id="html_a3200e65185fc63ea305933fa89bf0ed" style="width: 100.0%; height: 100.0%;"><b>Punto de información y Registro del Ayuntamiento de Albacete</b><br>Global: 45<br>SR: 52 | MR: 67<br>DV: 31 | HA: 39<br>DI: 36</div>`)[0];
+                popup_77b87b14e498ab98b748e8faeab85a81.setContent(html_a3200e65185fc63ea305933fa89bf0ed);
+            
+        
+
+        marker_57d7cccee4ce3cb19abdd0419b1d9d65.bindPopup(popup_77b87b14e498ab98b748e8faeab85a81)
+        ;
+
+        
+    
+    
+                marker_57d7cccee4ce3cb19abdd0419b1d9d65.setIcon(icon_7eac596316cdd4d8b4b0c979f5f896f5);
+            
+    
+            var marker_0c7f52f40e546da4ff3d4b71cacc9645 = L.marker(
+                [38.99783, -1.856366],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_33821692fb746bcdd00cf2c77c02c96f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf05fd1fbd26cb4dc0d8e92dad3d095e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_04de56b1c690a58ac7d06a786070f3e7 = $(`<div id="html_04de56b1c690a58ac7d06a786070f3e7" style="width: 100.0%; height: 100.0%;"><b>Centro Base Servicios Sociales</b><br>Global: 46<br>SR: 40 | MR: 53<br>DV: 34 | HA: 56<br>DI: 46</div>`)[0];
+                popup_bf05fd1fbd26cb4dc0d8e92dad3d095e.setContent(html_04de56b1c690a58ac7d06a786070f3e7);
+            
+        
+
+        marker_0c7f52f40e546da4ff3d4b71cacc9645.bindPopup(popup_bf05fd1fbd26cb4dc0d8e92dad3d095e)
+        ;
+
+        
+    
+    
+                marker_0c7f52f40e546da4ff3d4b71cacc9645.setIcon(icon_33821692fb746bcdd00cf2c77c02c96f);
+            
+    
+            var marker_e2364482442f3f1f8b2d26819e275e2c = L.marker(
+                [39.001557, -1.864188],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_526f61a27d154b1984305ca7bbf8cfd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88df326d3963d25d054ed282ba781679 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_92db8e414e737e901a89b150282cb991 = $(`<div id="html_92db8e414e737e901a89b150282cb991" style="width: 100.0%; height: 100.0%;"><b>CSC D. José Oliva-Biblioteca Municipal El Pilar</b><br>Global: 36<br>SR: 32 | MR: 58<br>DV: 23 | HA: 34<br>DI: 31</div>`)[0];
+                popup_88df326d3963d25d054ed282ba781679.setContent(html_92db8e414e737e901a89b150282cb991);
+            
+        
+
+        marker_e2364482442f3f1f8b2d26819e275e2c.bindPopup(popup_88df326d3963d25d054ed282ba781679)
+        ;
+
+        
+    
+    
+                marker_e2364482442f3f1f8b2d26819e275e2c.setIcon(icon_526f61a27d154b1984305ca7bbf8cfd4);
+            
+    
+            var marker_d2a877c999b8378b740d222acce807a5 = L.marker(
+                [39.005092, -1.868702],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_a583003ee7697f50354a5250ddfdb77a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba00b2bd7a2e786216e93df57a091689 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5738889db9d81ecb056c73eb4bedbceb = $(`<div id="html_5738889db9d81ecb056c73eb4bedbceb" style="width: 100.0%; height: 100.0%;"><b>CSC Cañicas</b><br>Global: 44<br>SR: 54 | MR: 59<br>DV: 31 | HA: 40<br>DI: 34</div>`)[0];
+                popup_ba00b2bd7a2e786216e93df57a091689.setContent(html_5738889db9d81ecb056c73eb4bedbceb);
+            
+        
+
+        marker_d2a877c999b8378b740d222acce807a5.bindPopup(popup_ba00b2bd7a2e786216e93df57a091689)
+        ;
+
+        
+    
+    
+                marker_d2a877c999b8378b740d222acce807a5.setIcon(icon_a583003ee7697f50354a5250ddfdb77a);
+            
+    
+            var marker_5d766f3f021d783d5d811d272053e431 = L.marker(
+                [39.0014, -1.859768],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_b8970d351f92f1e0221a2e2d375c053b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_626a1a62064f628d3f9474cf56454e25 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9fc9540a427143d7f96910a7b1878313 = $(`<div id="html_9fc9540a427143d7f96910a7b1878313" style="width: 100.0%; height: 100.0%;"><b>CSC Industria</b><br>Global: 22<br>SR: 18 | MR: 34<br>DV: 16 | HA: 23<br>DI: 20</div>`)[0];
+                popup_626a1a62064f628d3f9474cf56454e25.setContent(html_9fc9540a427143d7f96910a7b1878313);
+            
+        
+
+        marker_5d766f3f021d783d5d811d272053e431.bindPopup(popup_626a1a62064f628d3f9474cf56454e25)
+        ;
+
+        
+    
+    
+                marker_5d766f3f021d783d5d811d272053e431.setIcon(icon_b8970d351f92f1e0221a2e2d375c053b);
+            
+    
+            var marker_344404ed34d6ec5a77ce5c0be5a682a1 = L.marker(
+                [38.99066, -1.842744],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_639ffc4d908a9c19a2d1d0393251e4de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1346163f86fd37b44a7e4f5732c752e0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2d8c78d276007b72a08ccf2d1e4650be = $(`<div id="html_2d8c78d276007b72a08ccf2d1e4650be" style="width: 100.0%; height: 100.0%;"><b>CSC Buen Suceso</b><br>Global: 32<br>SR: 32 | MR: 37<br>DV: 31 | HA: 32<br>DI: 27</div>`)[0];
+                popup_1346163f86fd37b44a7e4f5732c752e0.setContent(html_2d8c78d276007b72a08ccf2d1e4650be);
+            
+        
+
+        marker_344404ed34d6ec5a77ce5c0be5a682a1.bindPopup(popup_1346163f86fd37b44a7e4f5732c752e0)
+        ;
+
+        
+    
+    
+                marker_344404ed34d6ec5a77ce5c0be5a682a1.setIcon(icon_639ffc4d908a9c19a2d1d0393251e4de);
+            
+    
+            var marker_25c5c81d691ce2a07b6dd02b76bf112d = L.marker(
+                [38.984597, -1.854634],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_d8ffb42e39fb6289243ed45efe927d86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4edd261a68b9070ad99574bc60c31d0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ea714fd422938f60e14eec231a21ee90 = $(`<div id="html_ea714fd422938f60e14eec231a21ee90" style="width: 100.0%; height: 100.0%;"><b>Pabellón Polideportivo Municipal Parque Sur</b><br>Global: 29<br>SR: 29 | MR: 31<br>DV: 29 | HA: 31<br>DI: 26</div>`)[0];
+                popup_a4edd261a68b9070ad99574bc60c31d0.setContent(html_ea714fd422938f60e14eec231a21ee90);
+            
+        
+
+        marker_25c5c81d691ce2a07b6dd02b76bf112d.bindPopup(popup_a4edd261a68b9070ad99574bc60c31d0)
+        ;
+
+        
+    
+    
+                marker_25c5c81d691ce2a07b6dd02b76bf112d.setIcon(icon_d8ffb42e39fb6289243ed45efe927d86);
+            
+    
+            var marker_4e5189989768755f162d70c2cb2f9aa3 = L.marker(
+                [38.983812, -1.855043],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_297d45d715cfc752a783ecd334fdf5f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9fe531f82d434c3a4e8dd9a67d410014 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cf6024eb7bf6a48c282f0cbf0f198dff = $(`<div id="html_cf6024eb7bf6a48c282f0cbf0f198dff" style="width: 100.0%; height: 100.0%;"><b>CSC Parque Sur</b><br>Global: 43<br>SR: 45 | MR: 46<br>DV: 44 | HA: 42<br>DI: 36</div>`)[0];
+                popup_9fe531f82d434c3a4e8dd9a67d410014.setContent(html_cf6024eb7bf6a48c282f0cbf0f198dff);
+            
+        
+
+        marker_4e5189989768755f162d70c2cb2f9aa3.bindPopup(popup_9fe531f82d434c3a4e8dd9a67d410014)
+        ;
+
+        
+    
+    
+                marker_4e5189989768755f162d70c2cb2f9aa3.setIcon(icon_297d45d715cfc752a783ecd334fdf5f9);
+            
+    
+            var marker_c749df0eb90ab6728eaa583916e48d02 = L.marker(
+                [38.995853, -1.84651],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_2b9f5ac4297d2bfdac32e18ca831058c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_179122af74cb37fa7c0d0c107822648c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_183e2a77771cb56d8135ff713ddfd454 = $(`<div id="html_183e2a77771cb56d8135ff713ddfd454" style="width: 100.0%; height: 100.0%;"><b>CSC Polígono San Antón</b><br>Global: 26<br>SR: 24 | MR: 32<br>DV: 24 | HA: 28<br>DI: 23</div>`)[0];
+                popup_179122af74cb37fa7c0d0c107822648c.setContent(html_183e2a77771cb56d8135ff713ddfd454);
+            
+        
+
+        marker_c749df0eb90ab6728eaa583916e48d02.bindPopup(popup_179122af74cb37fa7c0d0c107822648c)
+        ;
+
+        
+    
+    
+                marker_c749df0eb90ab6728eaa583916e48d02.setIcon(icon_2b9f5ac4297d2bfdac32e18ca831058c);
+            
+    
+            var marker_dbdff0c5b49a94bb4f4ebbf981394256 = L.marker(
+                [38.985814, -1.853933],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_ead9619ff2f98e1982b35e7e366ac546 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b639ed0432d71396261c01e7512f783 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a6c898cbf84c3562d366ecf8d1a1ee4d = $(`<div id="html_a6c898cbf84c3562d366ecf8d1a1ee4d" style="width: 100.0%; height: 100.0%;"><b>CSC Hospital 2</b><br>Global: 32<br>SR: 32 | MR: 38<br>DV: 28 | HA: 33<br>DI: 28</div>`)[0];
+                popup_9b639ed0432d71396261c01e7512f783.setContent(html_a6c898cbf84c3562d366ecf8d1a1ee4d);
+            
+        
+
+        marker_dbdff0c5b49a94bb4f4ebbf981394256.bindPopup(popup_9b639ed0432d71396261c01e7512f783)
+        ;
+
+        
+    
+    
+                marker_dbdff0c5b49a94bb4f4ebbf981394256.setIcon(icon_ead9619ff2f98e1982b35e7e366ac546);
+            
+    
+            var marker_5802838b0e2de8970afe6aa52ca6c4ec = L.marker(
+                [38.992583, -1.852254],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_ee50ef04a10a28f87ead382c142c6156 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c92793a787ff576ac6dac5e2f2c7668 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0e089e37267253947a7218e9a798cc8d = $(`<div id="html_0e089e37267253947a7218e9a798cc8d" style="width: 100.0%; height: 100.0%;"><b>CSC Carretas-Huerta De Marzo</b><br>Global: 32<br>SR: 29 | MR: 37<br>DV: 36 | HA: 32<br>DI: 27</div>`)[0];
+                popup_1c92793a787ff576ac6dac5e2f2c7668.setContent(html_0e089e37267253947a7218e9a798cc8d);
+            
+        
+
+        marker_5802838b0e2de8970afe6aa52ca6c4ec.bindPopup(popup_1c92793a787ff576ac6dac5e2f2c7668)
+        ;
+
+        
+    
+    
+                marker_5802838b0e2de8970afe6aa52ca6c4ec.setIcon(icon_ee50ef04a10a28f87ead382c142c6156);
+            
+    
+            var marker_493dc5e627d9e41e18d0e250f70be251 = L.marker(
+                [38.996292, -1.852066],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_e411b631b7faeb687cbae9398889313e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2f83f7f67af44bdb42a1861434cb1ae = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_68b1a8aa2e75c076c21fc2ba05057941 = $(`<div id="html_68b1a8aa2e75c076c21fc2ba05057941" style="width: 100.0%; height: 100.0%;"><b>Centro Equipo Atención Integral</b><br>Global: 34<br>SR: 35 | MR: 41<br>DV: 32 | HA: 35<br>DI: 29</div>`)[0];
+                popup_f2f83f7f67af44bdb42a1861434cb1ae.setContent(html_68b1a8aa2e75c076c21fc2ba05057941);
+            
+        
+
+        marker_493dc5e627d9e41e18d0e250f70be251.bindPopup(popup_f2f83f7f67af44bdb42a1861434cb1ae)
+        ;
+
+        
+    
+    
+                marker_493dc5e627d9e41e18d0e250f70be251.setIcon(icon_e411b631b7faeb687cbae9398889313e);
+            
+    
+            var marker_c77c605eb6e089bf947f8b725446ee21 = L.marker(
+                [38.989162, -1.850638],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_114ae9d86bc56ef11cb0f56fd8027285 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c95e795242b49e9110e7e6740b6ade86 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1249d1bfc80ef9054f638137d2f11ccc = $(`<div id="html_1249d1bfc80ef9054f638137d2f11ccc" style="width: 100.0%; height: 100.0%;"><b>Biblioteca Municipal Depósitos del Sol</b><br>Global: 34<br>SR: 35 | MR: 40<br>DV: 30 | HA: 35<br>DI: 29</div>`)[0];
+                popup_c95e795242b49e9110e7e6740b6ade86.setContent(html_1249d1bfc80ef9054f638137d2f11ccc);
+            
+        
+
+        marker_c77c605eb6e089bf947f8b725446ee21.bindPopup(popup_c95e795242b49e9110e7e6740b6ade86)
+        ;
+
+        
+    
+    
+                marker_c77c605eb6e089bf947f8b725446ee21.setIcon(icon_114ae9d86bc56ef11cb0f56fd8027285);
+            
+    
+            var marker_231181e6a48d480bebea88631c0840c5 = L.marker(
+                [38.994763, -1.851345],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_d28b34e1a68b0a0327331007d66d4b0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0692e482d0e6cc5a624c1b89a3c9d1e2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8235dd3dd216cb7de7acf704b63a7843 = $(`<div id="html_8235dd3dd216cb7de7acf704b63a7843" style="width: 100.0%; height: 100.0%;"><b>CSC Pajarita</b><br>Global: 32<br>SR: 29 | MR: 36<br>DV: 31 | HA: 35<br>DI: 28</div>`)[0];
+                popup_0692e482d0e6cc5a624c1b89a3c9d1e2.setContent(html_8235dd3dd216cb7de7acf704b63a7843);
+            
+        
+
+        marker_231181e6a48d480bebea88631c0840c5.bindPopup(popup_0692e482d0e6cc5a624c1b89a3c9d1e2)
+        ;
+
+        
+    
+    
+                marker_231181e6a48d480bebea88631c0840c5.setIcon(icon_d28b34e1a68b0a0327331007d66d4b0e);
+            
+    
+            var marker_c9e7185cbbdf591f98f4102adbc09f62 = L.marker(
+                [38.992498, -1.851831],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_be8dd0dc759dda1fa3fcfcccf5ea27c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37a2ac4d944ae3733c0ba92141e9c734 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c98cf8153089fc3a5ff25beff5650639 = $(`<div id="html_c98cf8153089fc3a5ff25beff5650639" style="width: 100.0%; height: 100.0%;"><b>Casa Carretas (Mercado de las Carretas)</b><br>Global: 32<br>SR: 31 | MR: 36<br>DV: 28 | HA: 36<br>DI: 30</div>`)[0];
+                popup_37a2ac4d944ae3733c0ba92141e9c734.setContent(html_c98cf8153089fc3a5ff25beff5650639);
+            
+        
+
+        marker_c9e7185cbbdf591f98f4102adbc09f62.bindPopup(popup_37a2ac4d944ae3733c0ba92141e9c734)
+        ;
+
+        
+    
+    
+                marker_c9e7185cbbdf591f98f4102adbc09f62.setIcon(icon_be8dd0dc759dda1fa3fcfcccf5ea27c5);
+            
+    
+            var marker_0cb579002fc0124a2a899ffb8f3b7281 = L.marker(
+                [38.983678, -1.848919],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_0a41fa9bc5d57a050db20303e7895150 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfb227c0d3d7a39b3577803ac2e599da = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_769066b31d7bce06a370d597d489c146 = $(`<div id="html_769066b31d7bce06a370d597d489c146" style="width: 100.0%; height: 100.0%;"><b>Escuela Infantil Hermanos Falcó</b><br>Global: 34<br>SR: 37 | MR: 40<br>DV: 33 | HA: 31<br>DI: 31</div>`)[0];
+                popup_bfb227c0d3d7a39b3577803ac2e599da.setContent(html_769066b31d7bce06a370d597d489c146);
+            
+        
+
+        marker_0cb579002fc0124a2a899ffb8f3b7281.bindPopup(popup_bfb227c0d3d7a39b3577803ac2e599da)
+        ;
+
+        
+    
+    
+                marker_0cb579002fc0124a2a899ffb8f3b7281.setIcon(icon_0a41fa9bc5d57a050db20303e7895150);
+            
+    
+            var marker_12e30319d67de3f9b876d850a61b928a = L.marker(
+                [38.992624, -1.848208],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_1049a20dd0f1c313079c556ad9429b56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cf7d09f05e904c41fc2318dee99b05e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_116559e0ee4432b9fb42e8a86784695b = $(`<div id="html_116559e0ee4432b9fb42e8a86784695b" style="width: 100.0%; height: 100.0%;"><b>Casa de la Solidaridad A</b><br>Global: 34<br>SR: 36 | MR: 39<br>DV: 31 | HA: 34<br>DI: 28</div>`)[0];
+                popup_8cf7d09f05e904c41fc2318dee99b05e.setContent(html_116559e0ee4432b9fb42e8a86784695b);
+            
+        
+
+        marker_12e30319d67de3f9b876d850a61b928a.bindPopup(popup_8cf7d09f05e904c41fc2318dee99b05e)
+        ;
+
+        
+    
+    
+                marker_12e30319d67de3f9b876d850a61b928a.setIcon(icon_1049a20dd0f1c313079c556ad9429b56);
+            
+    
+            var marker_b37d4b7134fdd095af622cbe4466f877 = L.marker(
+                [38.988634, -1.87663],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_7ff621a9137995f7dfc9e3ef3b916057 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_434c6d0f8509b6f16df23a33954e57d0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6c371f203a6a3386e08e49450254ec3e = $(`<div id="html_6c371f203a6a3386e08e49450254ec3e" style="width: 100.0%; height: 100.0%;"><b>CSC Vereda</b><br>Global: 24<br>SR: 21 | MR: 29<br>DV: 17 | HA: 32<br>DI: 20</div>`)[0];
+                popup_434c6d0f8509b6f16df23a33954e57d0.setContent(html_6c371f203a6a3386e08e49450254ec3e);
+            
+        
+
+        marker_b37d4b7134fdd095af622cbe4466f877.bindPopup(popup_434c6d0f8509b6f16df23a33954e57d0)
+        ;
+
+        
+    
+    
+                marker_b37d4b7134fdd095af622cbe4466f877.setIcon(icon_7ff621a9137995f7dfc9e3ef3b916057);
+            
+    
+            var marker_d68b9a568fb9c76b8b1632e3e4fa144b = L.marker(
+                [38.990124, -1.866167],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_bb212394e8d559e610ff992969f94352 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8a2a1e1324d70160bfd51b3c877fec4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_44831e795b70ce407211ceff14d01372 = $(`<div id="html_44831e795b70ce407211ceff14d01372" style="width: 100.0%; height: 100.0%;"><b>CSC Ensanche</b><br>Global: 42<br>SR: 35 | MR: 56<br>DV: 34 | HA: 44<br>DI: 39</div>`)[0];
+                popup_f8a2a1e1324d70160bfd51b3c877fec4.setContent(html_44831e795b70ce407211ceff14d01372);
+            
+        
+
+        marker_d68b9a568fb9c76b8b1632e3e4fa144b.bindPopup(popup_f8a2a1e1324d70160bfd51b3c877fec4)
+        ;
+
+        
+    
+    
+                marker_d68b9a568fb9c76b8b1632e3e4fa144b.setIcon(icon_bb212394e8d559e610ff992969f94352);
+            
+    
+            var marker_3bc32b4ff38420a74bfbb488d5d53244 = L.marker(
+                [38.989815, -1.845504],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_3cffcd617b22d009a7beb5f0bbc56a7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b273dd04654efadce1d812abfc6dd0f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f71c1883831923d642ead724a77d6455 = $(`<div id="html_f71c1883831923d642ead724a77d6455" style="width: 100.0%; height: 100.0%;"><b>Universidad Popular</b><br>Global: 38<br>SR: 41 | MR: 44<br>DV: 34 | HA: 37<br>DI: 32</div>`)[0];
+                popup_4b273dd04654efadce1d812abfc6dd0f.setContent(html_f71c1883831923d642ead724a77d6455);
+            
+        
+
+        marker_3bc32b4ff38420a74bfbb488d5d53244.bindPopup(popup_4b273dd04654efadce1d812abfc6dd0f)
+        ;
+
+        
+    
+    
+                marker_3bc32b4ff38420a74bfbb488d5d53244.setIcon(icon_3cffcd617b22d009a7beb5f0bbc56a7c);
+            
+    
+            var marker_75b0da1c72b2ee42c7a48b541b46cfcd = L.marker(
+                [38.990172, -1.871112],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_27fc2344007c665e7e8bd5859089de19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20c9bf4553c3b6d6b6f1ed6611b69f5d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fc97889473809776ddb46e195d432b9f = $(`<div id="html_fc97889473809776ddb46e195d432b9f" style="width: 100.0%; height: 100.0%;"><b>CSC Santa Teresa</b><br>Global: 27<br>SR: 24 | MR: 36<br>DV: 20 | HA: 33<br>DI: 21</div>`)[0];
+                popup_20c9bf4553c3b6d6b6f1ed6611b69f5d.setContent(html_fc97889473809776ddb46e195d432b9f);
+            
+        
+
+        marker_75b0da1c72b2ee42c7a48b541b46cfcd.bindPopup(popup_20c9bf4553c3b6d6b6f1ed6611b69f5d)
+        ;
+
+        
+    
+    
+                marker_75b0da1c72b2ee42c7a48b541b46cfcd.setIcon(icon_27fc2344007c665e7e8bd5859089de19);
+            
+    
+            var marker_a24fa9292f5001e9630d9ecad7c9f629 = L.marker(
+                [38.989965, -1.8612],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_426574bf56151717914e7136aca8e231 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb3206e57acc7e85549b4f4c80f44039 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ea11a639b9caf692cefadfcc26fcc60f = $(`<div id="html_ea11a639b9caf692cefadfcc26fcc60f" style="width: 100.0%; height: 100.0%;"><b>Centro de Juventud</b><br>Global: 50<br>SR: 51 | MR: 67<br>DV: 40 | HA: 47<br>DI: 43</div>`)[0];
+                popup_bb3206e57acc7e85549b4f4c80f44039.setContent(html_ea11a639b9caf692cefadfcc26fcc60f);
+            
+        
+
+        marker_a24fa9292f5001e9630d9ecad7c9f629.bindPopup(popup_bb3206e57acc7e85549b4f4c80f44039)
+        ;
+
+        
+    
+    
+                marker_a24fa9292f5001e9630d9ecad7c9f629.setIcon(icon_426574bf56151717914e7136aca8e231);
+            
+    
+            var marker_d0bf421a8c5418136a7d3cc59d47ae59 = L.marker(
+                [38.993003, -1.87232],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_03734ffb4b5eedd0a8eaa97456eac5a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72b63d40675e5e6ee4ba4b5d1ee9c08f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_78bef9ee5f0c554e77994dc79c38b8fc = $(`<div id="html_78bef9ee5f0c554e77994dc79c38b8fc" style="width: 100.0%; height: 100.0%;"><b>Piscina Santa Teresa</b><br>Global: 33<br>SR: 32 | MR: 37<br>DV: 21 | HA: 41<br>DI: 32</div>`)[0];
+                popup_72b63d40675e5e6ee4ba4b5d1ee9c08f.setContent(html_78bef9ee5f0c554e77994dc79c38b8fc);
+            
+        
+
+        marker_d0bf421a8c5418136a7d3cc59d47ae59.bindPopup(popup_72b63d40675e5e6ee4ba4b5d1ee9c08f)
+        ;
+
+        
+    
+    
+                marker_d0bf421a8c5418136a7d3cc59d47ae59.setIcon(icon_03734ffb4b5eedd0a8eaa97456eac5a6);
+            
+    
+            var marker_8e376f39c158270dd7cb1d8c82a9f9b3 = L.marker(
+                [38.986902, -1.846525],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_476ab2b78be4026925c44f49ed8a26e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe97735bb0111495759ccc22aca6fb05 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_023c139383369a7d2f2dcf5ac5e677b5 = $(`<div id="html_023c139383369a7d2f2dcf5ac5e677b5" style="width: 100.0%; height: 100.0%;"><b>IMD Jorge Juan</b><br>Global: 22<br>SR: 23 | MR: 28<br>DV: 19 | HA: 22<br>DI: 18</div>`)[0];
+                popup_fe97735bb0111495759ccc22aca6fb05.setContent(html_023c139383369a7d2f2dcf5ac5e677b5);
+            
+        
+
+        marker_8e376f39c158270dd7cb1d8c82a9f9b3.bindPopup(popup_fe97735bb0111495759ccc22aca6fb05)
+        ;
+
+        
+    
+    
+                marker_8e376f39c158270dd7cb1d8c82a9f9b3.setIcon(icon_476ab2b78be4026925c44f49ed8a26e8);
+            
+    
+            var marker_e5c216835ae5c82443caa4287f4d7de4 = L.marker(
+                [38.994579, -1.850565],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_3b4441e3aff82a1eac400ee8ce31a4e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acbc05a3d29ca90a008c79c0932cb9d5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8c699c6ba75b89c78963f3f3735cf3d5 = $(`<div id="html_8c699c6ba75b89c78963f3f3735cf3d5" style="width: 100.0%; height: 100.0%;"><b>Archivo Municipal Albacete</b><br>Global: 39<br>SR: 46 | MR: 49<br>DV: 36 | HA: 36<br>DI: 29</div>`)[0];
+                popup_acbc05a3d29ca90a008c79c0932cb9d5.setContent(html_8c699c6ba75b89c78963f3f3735cf3d5);
+            
+        
+
+        marker_e5c216835ae5c82443caa4287f4d7de4.bindPopup(popup_acbc05a3d29ca90a008c79c0932cb9d5)
+        ;
+
+        
+    
+    
+                marker_e5c216835ae5c82443caa4287f4d7de4.setIcon(icon_3b4441e3aff82a1eac400ee8ce31a4e7);
+            
+    
+            var marker_b01abadc352cfa28c8ffeeaf5da59f02 = L.marker(
+                [38.990124, -1.866167],
+                {
+}
+            ).addTo(map_e0b3c1da95192ff7b356ec7c8b50f08a);
+        
+    
+            var icon_d60931e7e1404d3a7a14b912a80f489c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f480f28f342ab52be1be0eed011e442 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b0fb1e485100ffd1b847765941ae61dd = $(`<div id="html_b0fb1e485100ffd1b847765941ae61dd" style="width: 100.0%; height: 100.0%;"><b>CSC Ensanche</b><br>Global: 28<br>SR: 10 | MR: 44<br>DV: 22 | HA: 35<br>DI: 28</div>`)[0];
+                popup_1f480f28f342ab52be1be0eed011e442.setContent(html_b0fb1e485100ffd1b847765941ae61dd);
+            
+        
+
+        marker_b01abadc352cfa28c8ffeeaf5da59f02.bindPopup(popup_1f480f28f342ab52be1be0eed011e442)
+        ;
+
+        
+    
+    
+                marker_b01abadc352cfa28c8ffeeaf5da59f02.setIcon(icon_d60931e7e1404d3a7a14b912a80f489c);
+            
+</script>
+</html>
