@@ -32,6 +32,7 @@ Los mapas disponibles incluyen:
 - Edificios públicos evaluados
 - Clusters K-Means de perfiles de accesibilidad
 - Análisis LISA (autocorrelación espacial)
+- Residuos espaciales del modelo de regresión
 
 ---
 
@@ -52,7 +53,8 @@ Los mapas disponibles incluyen:
 ├── mapa_accesibilidad_global.html  # Mapa de puntuación global
 ├── mapa_edificios.html             # Mapa de edificios públicos
 ├── mapa_clusters_kmeans.html       # Visualización de clusters
-└── mapa_lisa_clusters.html         # Análisis de autocorrelación espacial
+├── mapa_lisa_clusters.html         # Análisis de autocorrelación espacial
+└── mapa_residuos_espaciales.html   # Residuos del modelo de regresión
 ```
 
 ---
